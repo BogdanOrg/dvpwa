@@ -2,6 +2,7 @@ from typing import Optional, NamedTuple
 
 from aiopg.connection import Connection
 
+
 class Course(NamedTuple):
     id: int
     title: str
